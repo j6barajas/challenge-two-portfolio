@@ -13,8 +13,9 @@ header h1 {
 
 header ul {
     display: flex;
-    
+    gap: 10px;
 }
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -29,10 +30,21 @@ main {
 
 .about {
     display: flex;
-    flex-direction: row;
+    padding: 20px;
 }
 
 .work {
     display: flex;
     flex-direction: row
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
 }
