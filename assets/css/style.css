@@ -1,9 +1,38 @@
-h1 {
-    display: flex;
-    justify-content: center;
-}
-header ul {
+header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aqua;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.work {
+    display: flex;
+    flex-direction: row
 }
